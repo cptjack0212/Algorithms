@@ -1,0 +1,19 @@
+function repeatStringNumTimes(str, num) {
+  var string = "";
+  
+  if ( num < 0 ){
+    return "";
+  }
+  
+  while ( num > 0 ){
+    string += str;
+    num--;
+    
+  }
+ return string; 
+
+}
+repeatStringNumTimes("abc", 3);
+repeatStringNumTimes("*", 9);
+repeatStringNumTimes("abc", 5);
+repeatStringNumTimes("yo", -2);
