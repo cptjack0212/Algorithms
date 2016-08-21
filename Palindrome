@@ -1,0 +1,13 @@
+function palindrome(str) {
+  
+  var a = str.toLowerCase().replace( /[^A-Za-z0-9]/g, "" );
+  return a == a.split('').reverse().join('');
+}
+
+
+
+palindrome("race car");
+palindrome("never odd or even");
+palindrome("0_0 (: /-\ :) 0-0");
+palindrome("turtle");
+palindrome("racecar");
