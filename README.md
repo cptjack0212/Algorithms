@@ -1,2 +1,2 @@
-# Algorithms
-A collection of algorithms I've learned
+# Javascript code
+A collection of javascript code I've written
